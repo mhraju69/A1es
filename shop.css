@@ -1,0 +1,181 @@
+#shop{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform-style: preserve-3d;
+  transform: translate3d(-50 -50 -50 0) rotate(-15deg);
+}
+#shop .mbox{
+  margin-top: 11rem;
+  width: 100%;
+  text-align: center;
+}
+#shop .s-box{
+  display: flex;
+  width: 100%;
+}
+#shop .shop-name{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  margin-bottom:98rem;
+  padding: 3px 8px;
+  border: 2px solid white;
+  box-shadow: 0 40px 30px black;
+  border-radius: 8px;
+}
+
+.s-card{
+  display: flex;
+  height: 480px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transform: scale(0.7);
+  box-shadow: 0 30px 20px #000000;
+  margin: 12px;
+}
+.s-card h4{
+  font-size: 30px;
+  color : white;
+  margin-bottom: 25rem;
+  letter-spacing: 5px;
+  position: absolute;
+  transition: .5s;
+  opacity: 0;
+  background: #42445A85;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 3px 4px;
+  box-shadow: 0 40px 60px black;
+}
+.s-card .jersey{
+  background: url(/img/jersey.jpg) no-repeat left;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  bottom: 0;
+  top: 0;
+  border-radius: 8px;
+}
+.s-card .hoodie{
+  background: url(/img/hoodie.jpg) no-repeat center;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  bottom: 0;
+  top: 0;
+  border-radius: 8px;
+  }
+  .s-card .cover{
+    background: url(/img/cover.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 120%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+    .s-card .watch{
+    background: url(http://source.unsplash.com/500x450/?watch) ;
+    background-repeat: no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 120%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+    .s-card .band{
+    background: url(/img/band.jpeg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+    .s-card .cap{
+    background: url(http://source.unsplash.com/500x450/?cap) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+      .s-card .wallet{
+    background: url(http://source.unsplash.com/500x450/?wallet) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+      .s-card .mask{
+    background: url(http://source.unsplash.com/500x450/?mask) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+      .s-card .shoe{
+    background: url(http://source.unsplash.com/500x450/?shoes) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    bottom: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+  
+  
+button a{
+  display: flex;
+  align-content: center;
+  position: absolute;
+  font-size: 20px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 7px 10px;
+  top: 27rem;
+  left: 35%;
+  transition: 0.5s;
+  opacity: 0;
+  box-shadow: 0 20px 20px black;
+}
+.s-card:hover h4{
+  opacity: 1;
+  transform: translateY(25px)
+}
+.s-card:hover button a{
+  opacity: 1;
+  transform: translateY(-25px)
+}
+#shop .help{
+  margin-bottom: 10px;
+}
+.help h3{
+  margin: 25px 0;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  
+}
+.help li{
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 0px;
+}
